@@ -265,8 +265,8 @@ p {
     background-color: #FFFFFF;
 }
 
-.pb-200 {
-    padding-bottom: 200px;
+.pb-100 {
+    padding-bottom: 100px;
 }
 
 .w-fit {
@@ -322,7 +322,7 @@ p {
     transition: all 0.3s linear;
 }
 
-.p-bt-40{
+.p-bt-40 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -407,9 +407,11 @@ p {
     right: 0%;
     opacity: 100%;
 }
-.slick-prev:before{
+
+.slick-prev:before {
     content: url(../image/aarow12.svg);
 }
+
 .slick-next:hover::before,
 .slick-prev:hover::before {
     background-color: #b7b7b8;
@@ -458,11 +460,12 @@ p {
     width: 45px;
     height: 15px;
 }
-.slider-box{
-   min-height: 250px;
+
+.slider-box {
+    min-height: 250px;
 }
 
-.s-1{
+.s-1 {
     background: linear-gradient(to top, #F7F7F7 50%, #FBFBFB 50%);
     background-repeat: no-repeat;
 }
@@ -478,4 +481,24 @@ p {
 
 .slick-slide>div {
     display: flex;
+}
+
+.over-slider {
+    z-index: 2;
+}
+
+.slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: #FBFBFB;
 }
