@@ -158,7 +158,6 @@ p {
 }
 
 .main-box {
-    max-width: 1140px;
     min-height: 200px;
     border-radius: 10px;
 }
@@ -225,7 +224,7 @@ p {
     max-width: 383px;
 }
 
-.h-fit {
+.h-60 {
     height: 60px;
 }
 
@@ -394,7 +393,7 @@ p {
 
 .slick-next:before,
 .slick-prev:before {
-    content: url(../image/arrow.svg);
+    content: url(../svg/arrow.svg);
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -410,7 +409,7 @@ p {
 }
 
 .slick-prev:before {
-    content: url(../image/aarow12.svg);
+    content: url(../svg/aarow12.svg);
 }
 
 .slick-next:hover::before,

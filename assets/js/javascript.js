@@ -12,7 +12,7 @@ $('.slider').slick({
     dots: true,
     infinite: true,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
         {
@@ -24,10 +24,10 @@ $('.slider').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1,  
+                slidesToScroll: 1,
                 arrows: false,
             }
         }
