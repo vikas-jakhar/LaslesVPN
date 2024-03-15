@@ -106,6 +106,7 @@
     letter-spacing: 0em;
     color: #4F5665;
     text-decoration: none;
+    margin-bottom: 0px;
 }
 
 .font-w-500 {
@@ -134,10 +135,6 @@
     border-radius: 50%;
     background: #FFECEC;
     place-items: center;
-}
-
-p {
-    margin-bottom: 0px;
 }
 
 .number {
@@ -173,6 +170,7 @@ p {
     line-height: 50px;
     letter-spacing: 0em;
     color: #0B132A;
+    margin-bottom: 0px;
 }
 
 .bg-color-1 {
@@ -295,8 +293,7 @@ p {
 }
 
 .icon-insta:hover {
-    filter: drop-shadow(0 0 10px #F53838);
-    transform: rotateY(360deg);
+    filter: drop-shadow(0 0 5px #F53838);
 
     .i-1 svg path {
         fill: #F53838;
